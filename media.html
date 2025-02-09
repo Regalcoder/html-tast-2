@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable HTML Document with Media Elements</title>
+</head>
+<body contenteditable="true">
+    <h1>Editable HTML Document with Media Elements</h1>
+
+    <!-- Responsive Picture Elements -->
+    <h2>Responsive Images</h2>
+    <picture>
+        <source srcset="images/obi2.jpg" media="(min-width: 1200px)">
+        <source srcset="images/obi2.jpg" media="(min-width: 768px)">
+        <img width="400" src="images/obi2" alt="Responsive Image 1">
+    </picture>
+
+    <picture>
+        <source srcset="images/obi1.jpg" media="(min-width: 1200px)">
+        <source srcset="images/obi1.jpg" media="(min-width: 768px)">
+        <img width="400" src="images/obi1.jpg" alt="Responsive Image 2">
+    </picture>
+
+    <picture>
+        <source srcset="images/obi3.jpg" media="(min-width: 1200px)">
+        <source srcset="images/obi3.jpg" media="(min-width: 768px)">
+        <img width="400" src="images/obi3.jpg" alt="Responsive Image 3">
+    </picture>
+
+    <!-- Audio Element -->
+    <h2>Audio</h2>
+    <audio controls>
+        <source src="audio/oluchi.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Video Element -->
+    <h2>Video</h2>
+    <video controls width="400">
+        <source src="video/obi.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+</body>
+</html>
